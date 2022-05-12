@@ -1,7 +1,6 @@
 {
     "editor.fontFamily": "'Droid Sans Mono', Menlo, consolas",
     "workbench.colorTheme": "Dracula Soft",
-    "workbench.iconTheme": "vikings-icon-theme",
     "editor.tabSize": 4,
     // Precisa instalar o Python e criar um ambiente virtual chamado venv
     "python.pythonPath": "venv\\Scripts\\python.exe",
