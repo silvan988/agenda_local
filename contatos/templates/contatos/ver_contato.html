@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{%block titulo%}{{contato.nome}} {{contato.sobrenome}} | {%endblock%}
+
+{%block conteudo%}
+<h2>
+    <div class="mt-2" style="width:450px">{{ contato.nome }} {{ contato.sobrenome }}</div>
+</h2>
+<div class="row">
+
+    <div class="col-3">
+        <dl>
+            <dt>ID</dt>
+            <dd>{{ contato.id }}</dd>
+
+            <dt>Telefone</dt>
+            <dd>{{ contato.telefone }}</dd>
+
+            <dt>E-mail</dt>
+            <dd>{{ contato.email }}</dd>
+
+            <dt>Data criação</dt>
+            <dd>{{ contato.data_criacao|date:'d/m/Y H:i:s' }}</dd>
+
+            <dt>Categoria</dt>
+            <dd>{{ contato.categoria }}</dd>
+
+        </dl>
+    </div>
+
+    <div class="col-4">
+        <dl>
+            {% if contato.foto %}
+            <p>
+                <img src="{{ contato.foto.url }}" style="max-width: 300px; height: auto;">
+            </p>
+            {% endif %}
+        </dl>
+    </div>
+
+    <div class="col-5">
+        <dl>
+            <dt>Descrição</dt>
+            <dd>{{ contato.descricao }}</dd>
+        </dl>
+    </div>
+</div>
+{%endblock%}

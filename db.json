@@ -1,0 +1,188 @@
+[
+{
+  "model": "contatos.categoria",
+  "pk": 1,
+  "fields": {
+    "nome": "Família"
+  }
+},
+{
+  "model": "contatos.categoria",
+  "pk": 2,
+  "fields": {
+    "nome": "Conhecidos"
+  }
+},
+{
+  "model": "contatos.categoria",
+  "pk": 3,
+  "fields": {
+    "nome": "Amigos"
+  }
+},
+{
+  "model": "contatos.contato",
+  "pk": 211,
+  "fields": {
+    "nome": "Bruna",
+    "sobrenome": "Barcelos",
+    "telefone": "46 9 9825-6379",
+    "email": "bruna@hotmail.com",
+    "data_criacao": "2019-07-18T05:50:54Z",
+    "descricao": "Fusce gravida egestas erat vitae placerat.",
+    "categoria": 2,
+    "mostrar": true,
+    "foto": "fotos/2019/07/StockSnap_ILP6CFYHQI.jpg"
+  }
+},
+{
+  "model": "contatos.contato",
+  "pk": 212,
+  "fields": {
+    "nome": "Oliver",
+    "sobrenome": "Vargas",
+    "telefone": "26 9 9869-4367",
+    "email": "oliver@gmail.com",
+    "data_criacao": "2019-07-18T05:50:54Z",
+    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare pretium nunc",
+    "categoria": 1,
+    "mostrar": true,
+    "foto": "fotos/2019/07/StockSnap_UBLCZML3J9.jpg"
+  }
+},
+{
+  "model": "contatos.contato",
+  "pk": 215,
+  "fields": {
+    "nome": "joao",
+    "sobrenome": "Da Silva",
+    "telefone": "96 6565454",
+    "email": "rb@vag.com",
+    "data_criacao": "2020-12-16T21:10:47Z",
+    "descricao": "ipsun lerun",
+    "categoria": 2,
+    "mostrar": true,
+    "foto": "fotos/2020/12/StockSnap_XKAZLYB5NV_aVuo4cy.jpg"
+  }
+},
+{
+  "model": "contatos.contato",
+  "pk": 216,
+  "fields": {
+    "nome": "Rose",
+    "sobrenome": "mary",
+    "telefone": "77 9 65646543",
+    "email": "ajdah@hh.com",
+    "data_criacao": "2020-12-17T00:05:29Z",
+    "descricao": "ipsun lerun",
+    "categoria": 1,
+    "mostrar": true,
+    "foto": "fotos/2020/12/StockSnap_XKAZLYB5NV_5ncK3AH.jpg"
+  }
+},
+{
+  "model": "contatos.contato",
+  "pk": 217,
+  "fields": {
+    "nome": "corintia",
+    "sobrenome": "paulista",
+    "telefone": "9988877766555",
+    "email": "cp@cp.com",
+    "data_criacao": "2021-06-29T14:14:29Z",
+    "descricao": "Perfil teste. cp",
+    "categoria": 3,
+    "mostrar": true,
+    "foto": "fotos/2021/06/shopping.png"
+  }
+},
+{
+  "model": "contatos.contato",
+  "pk": 218,
+  "fields": {
+    "nome": "Rosa",
+    "sobrenome": "Sanae",
+    "telefone": "9966525351",
+    "email": "smf@smf.com",
+    "data_criacao": "2021-06-29T14:36:16Z",
+    "descricao": "teste de comunicação.",
+    "categoria": 2,
+    "mostrar": true,
+    "foto": ""
+  }
+},
+{
+  "model": "contatos.contato",
+  "pk": 219,
+  "fields": {
+    "nome": "ads",
+    "sobrenome": "ads",
+    "telefone": "asad",
+    "email": "",
+    "data_criacao": "2021-07-01T21:14:00Z",
+    "descricao": "asda",
+    "categoria": 1,
+    "mostrar": true,
+    "foto": "fotos/2021/07/a1.jpg"
+  }
+},
+{
+  "model": "contatos.contato",
+  "pk": 220,
+  "fields": {
+    "nome": "dario",
+    "sobrenome": "nester",
+    "telefone": "99 98767654",
+    "email": "dn@sdf.com",
+    "data_criacao": "2021-07-21T13:05:25Z",
+    "descricao": "teste de inclusão sem admin",
+    "categoria": 2,
+    "mostrar": true,
+    "foto": ""
+  }
+},
+{
+  "model": "contatos.contato",
+  "pk": 221,
+  "fields": {
+    "nome": "mari2",
+    "sobrenome": "oive",
+    "telefone": "99 87548888",
+    "email": "mari@olive.com",
+    "data_criacao": "2021-07-21T13:10:05Z",
+    "descricao": "teste sem superuser",
+    "categoria": 2,
+    "mostrar": true,
+    "foto": "fotos/2021/07/a17.jpg"
+  }
+},
+{
+  "model": "contatos.contato",
+  "pk": 222,
+  "fields": {
+    "nome": "senhora",
+    "sobrenome": "aparecida",
+    "telefone": "5511965653232",
+    "email": "smf@smf.com",
+    "data_criacao": "2021-10-12T10:06:07Z",
+    "descricao": "feriado do dia das crianças.",
+    "categoria": 1,
+    "mostrar": true,
+    "foto": "fotos/2021/10/fQnjSbW.jpg"
+  }
+},
+{
+  "model": "contatos.contato",
+  "pk": 223,
+  "fields": {
+    "nome": "Navlis",
+    "sobrenome": "asotief",
+    "telefone": "55119966996656",
+    "email": "smf@smf.com",
+    "data_criacao": "2021-10-21T00:53:37Z",
+    "descricao": "teste no dia 20/10/21, rodando local, antes de alterar para heroku-S3.",
+    "categoria": 1,
+    "mostrar": true,
+    "foto": "fotos/2021/10/Andy_Panda_colored.JPG"
+  }
+}
+]
