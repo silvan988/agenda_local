@@ -13,7 +13,6 @@
         //"php": "C:\\xampp\\php\\php.exe",
         // Precisa instalar o Python e criar um ambiente virtual chamado venv
         "python": "venv\\Scripts\\python.exe -u",
-        "powershell": "powershell -ExecutionPolicy ByPass -File",
         "bat": "cmd /c",
         "shellscript": "bash",
     },
